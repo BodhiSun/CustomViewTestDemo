@@ -1,0 +1,1 @@
+include ':app', ':customview_uitemplate', ':customview_calendar', ':customview_progress', ':customview_linearlayout', ':cv_linearlayout', ':cv_paint', ':cv_paint_canvas', ':cv_path_text', ':cv_bezie_wave', ':cv_canvas', ':cv_canvas_layer', ':cv_coordinatesystem'

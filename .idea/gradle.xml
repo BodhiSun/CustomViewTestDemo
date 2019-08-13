@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/customview_calendar" />
+            <option value="$PROJECT_DIR$/customview_linearlayout" />
+            <option value="$PROJECT_DIR$/customview_progress" />
+            <option value="$PROJECT_DIR$/customview_uitemplate" />
+            <option value="$PROJECT_DIR$/cv_bezie_wave" />
+            <option value="$PROJECT_DIR$/cv_canvas" />
+            <option value="$PROJECT_DIR$/cv_canvas_layer" />
+            <option value="$PROJECT_DIR$/cv_coordinatesystem" />
+            <option value="$PROJECT_DIR$/cv_linearlayout" />
+            <option value="$PROJECT_DIR$/cv_paint" />
+            <option value="$PROJECT_DIR$/cv_paint_canvas" />
+            <option value="$PROJECT_DIR$/cv_path_text" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

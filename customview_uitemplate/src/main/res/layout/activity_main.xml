@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<com.bodhi.customview_uitemplate.TopBar
+    android:id="@+id/topbar"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    app:leftText="Back"
+    app:leftTextColor="#FFF"
+    app:leftBackground="#00F"
+    app:rightText="More"
+    app:rightTextColor="#FFF"
+    app:rightBackground="#00F"
+    app:title="Title"
+    app:titleTextColor="#000"
+    app:titleTextSize="8sp"/>
+
+
+</android.support.constraint.ConstraintLayout>

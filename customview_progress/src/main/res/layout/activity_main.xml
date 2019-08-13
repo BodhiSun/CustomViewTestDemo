@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:cp="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.bodhi.customview_progress.CustomHorizontalProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:padding="5dp"
+            android:progress="0"
+            cp:progress_reach_height="10dp"
+            cp:progress_unreach_height="10dp"
+            cp:progress_text_size="10sp"
+            cp:progress_text_color="#a1b2"
+            cp:progress_reach_color="#f00"
+            cp:progress_unreach_color="#4f00"/>
+
+        <com.bodhi.customview_progress.CustomHorizontalProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:padding="5dp"
+            android:progress="60"
+            cp:progress_reach_height="10dp"
+            cp:progress_unreach_height="10dp"
+            cp:progress_text_size="15sp"
+            cp:progress_text_color="#a1b"
+            cp:progress_reach_color="#f00"
+            cp:progress_unreach_color="#4f00"/>
+
+        <com.bodhi.customview_progress.CustomHorizontalProgressBar
+            android:id="@+id/horizontalProgress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:padding="5dp"
+            android:progress="100"
+            cp:progress_reach_height="10dp"
+            cp:progress_unreach_height="10dp"
+            cp:progress_text_size="20sp"
+            cp:progress_text_color="#a1b2c3"
+            cp:progress_reach_color="#f00"
+            cp:progress_unreach_color="#4f00"/>
+
+        <com.bodhi.customview_progress.RoundProgressBarWithProgress
+            android:id="@+id/roundProgress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:padding="5dp"
+            android:progress="30"
+            cp:progress_reach_height="5dp"
+            cp:progress_unreach_height="5dp"
+            cp:round_progress_radius="50dp"
+            cp:progress_text_size="10sp"
+            cp:progress_text_color="#a1b"
+            cp:progress_reach_color="#f00"
+            cp:progress_unreach_color="#4f00"/>
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Switch" />
+
+        <ToggleButton
+            android:id="@+id/toggleButton"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="ToggleButton" />
+
+
+        <SeekBar
+            android:layout_marginTop="20dp"
+            android:id="@+id/seekBar"
+            style="@style/Widget.AppCompat.SeekBar.Discrete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="10"
+            android:progress="3" />
+
+        <SearchView
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+
+    </LinearLayout>
+
+</ScrollView>

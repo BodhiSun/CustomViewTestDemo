@@ -2,6 +2,7 @@ package com.bodhi.customview_calendar;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Gravity;
 import android.widget.Toast;
 
 import java.text.DateFormat;
@@ -22,6 +23,8 @@ public class MainActivity extends AppCompatActivity implements CustomCalendar.Cu
     @Override
     public void onItemLongPress(Date date) {
         DateFormat df = SimpleDateFormat.getDateInstance();
-        Toast.makeText(this,df.format(date),Toast.LENGTH_SHORT).show();
+        Toast toast = Toast.makeText(this, df.format(date), Toast.LENGTH_SHORT);
+        toast.setGravity(Gravity.CENTER,0,-200);
+        toast.show();
     }
 }

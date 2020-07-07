@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">customview_luckywheel</string>
+
+
+
+    <string-array name="wheel_names">
+        <item>钻石 x 10</item>
+        <item>金币 x 10</item>
+        <item>活跃 x 10</item>
+        <item>次数 x 2</item>
+        <item>钻石 x 20</item>
+        <item>活跃 x 20</item>
+        <item>次数 x 1</item>
+        <item>金币 x 20</item>
+    </string-array>
+
+    <string-array name="wheel_icons">
+        <item>ic_wheel_diamond</item>
+        <item>ic_wheel_gold</item>
+        <item>ic_wheel_liveness</item>
+        <item>ic_wheel_times</item>
+        <item>ic_wheel_diamond</item>
+        <item>ic_wheel_liveness</item>
+        <item>ic_wheel_times</item>
+        <item>ic_wheel_gold</item>
+    </string-array>
+    <string-array name="wheel_colors_bg">
+        <item>#FFE2B0</item>
+        <item>#FF809C</item>
+        <item>#FFE2B0</item>
+        <item>#FF809C</item>
+        <item>#FFE2B0</item>
+        <item>#FF809C</item>
+        <item>#FFE2B0</item>
+        <item>#FF809C</item>
+    </string-array>
+    <string-array name="wheel_colors_tv">
+        <item>#DD1D55</item>
+        <item>#FEE1AF</item>
+        <item>#DD1D55</item>
+        <item>#FEE1AF</item>
+        <item>#DD1D55</item>
+        <item>#FEE1AF</item>
+        <item>#DD1D55</item>
+        <item>#FEE1AF</item>
+    </string-array>
+</resources>

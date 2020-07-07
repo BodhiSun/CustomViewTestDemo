@@ -10,7 +10,7 @@
     <com.bodhi.cv_bezie_wave.Cv_Bezie
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="2"/>
+        android:layout_weight="1"/>
 
     <Button
         android:layout_width="match_parent"
@@ -27,7 +27,7 @@
         android:id="@+id/cv_bezie_Wave"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="3"/>
+        android:layout_weight="2"/>
 
 
 

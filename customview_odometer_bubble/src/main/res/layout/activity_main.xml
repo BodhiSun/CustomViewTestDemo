@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/layout_head_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/home_step_bg">
+
+        <com.bodhi.customview_odometer_bubble.OdometerView
+            android:id="@+id/odometerView"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:paddingRight="5dp" />
+
+        <com.bodhi.customview_odometer_bubble.BubbleView
+            android:id="@+id/bubbleView1"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignBottom="@+id/odometerView"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="60dp"
+            app:floatAnimateTime="2000"
+            app:isShowGoldBg="true"
+            app:isShowNum="true" />
+
+        <com.bodhi.customview_odometer_bubble.BubbleView
+            android:id="@+id/bubbleView2"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignTop="@+id/odometerView"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            app:floatAnimateTime="2500"
+            app:isShowGoldBg="true"
+            app:isShowNum="true" />
+
+        <com.bodhi.customview_odometer_bubble.BubbleView
+            android:id="@+id/bubbleView3"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignTop="@+id/odometerView"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            app:floatAnimateTime="2300"
+            app:isShowGoldBg="true"
+            app:isShowNum="false" />
+
+        <com.bodhi.customview_odometer_bubble.BubbleView
+            android:id="@+id/bubbleView4"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignBottom="@+id/odometerView"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="60dp"
+            android:visibility="visible"
+            app:floatAnimateTime="2700"
+            app:isShowGoldBg="true"
+            app:isShowNum="true" />
+    </RelativeLayout>
+
+</LinearLayout>

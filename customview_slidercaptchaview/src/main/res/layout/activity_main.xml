@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.bodhi.customview_slidercaptchaview.SliderCaptchaView
+        android:id="@+id/scv"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_width="327dp"
+        android:layout_height="207dp"
+        android:src="@mipmap/cartoon_bg"
+        app:changeSliderThreshold="2"
+        app:sliderSize="50dp"
+        app:matchDeviation="4dp"
+        android:layout_margin="10dp"/>
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/scv"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:progressDrawable="@drawable/drag_seekbar_bg"
+        android:maxHeight="40dp"
+        android:minHeight="40dp"
+        android:thumbOffset="20dp"
+        android:splitTrack="false"
+        android:thumb="@mipmap/ic_captcha_seekbar"/>
+
+</android.support.constraint.ConstraintLayout>

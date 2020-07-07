@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SliderCaptchaView">
+        <attr name="sliderSize" format="dimension"/>
+        <attr name="changeSliderThreshold" format="integer"/>
+        <attr name="matchDeviation" format="dimension"/>
+    </declare-styleable>
+
+
+</resources>

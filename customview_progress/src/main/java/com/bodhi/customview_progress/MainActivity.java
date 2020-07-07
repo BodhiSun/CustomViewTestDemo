@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
                     maxProgress++;
 
                     try {
-                        Thread.sleep(50);
+                        Thread.sleep(25);
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }

@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="testRunner" value="PLATFORM" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="modules">
@@ -11,7 +14,10 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/customview_calendar" />
             <option value="$PROJECT_DIR$/customview_linearlayout" />
+            <option value="$PROJECT_DIR$/customview_luckywheel" />
+            <option value="$PROJECT_DIR$/customview_odometer_bubble" />
             <option value="$PROJECT_DIR$/customview_progress" />
+            <option value="$PROJECT_DIR$/customview_slidercaptchaview" />
             <option value="$PROJECT_DIR$/customview_uitemplate" />
             <option value="$PROJECT_DIR$/cv_bezie_wave" />
             <option value="$PROJECT_DIR$/cv_canvas" />

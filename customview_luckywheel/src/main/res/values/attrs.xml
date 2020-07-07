@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="LuckyWheelView">
+        <attr name="sectorNum" format="integer"/>
+        <attr name="rotateTimes" format="integer"/>
+        <attr name="perSectorRotateTime" format="integer"/>
+        <attr name="edgeDecorateRes" format="reference"/>
+        <attr name="sectorNames" format="reference"/>
+        <attr name="sectorIcons" format="reference"/>
+        <attr name="sectorBgColors" format="reference"/>
+        <attr name="sectorTextColors" format="reference"/>
+        <attr name="wheelBigIc" format="reference"/>
+        <attr name="wheelStartIc" format="reference"/>
+    </declare-styleable>
+
+</resources>
